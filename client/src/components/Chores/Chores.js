@@ -14,7 +14,7 @@ function Chores(props) {
       })
       .catch((err) => console.log(err));
 
- 
+
   }, []);
 
 
