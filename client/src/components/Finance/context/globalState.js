@@ -1,11 +1,8 @@
 import React, {createContext, useState, useEffect} from "react";
 import API from "../../../utils/API";
 
-
 export const GlobalContext = createContext({
-
 })
-
 
 export const GlobalProvider = ({ houseID, children }) => {
     const [transactions, setTransactions] = useState([])
@@ -15,7 +12,6 @@ export const GlobalProvider = ({ houseID, children }) => {
 useEffect(() => {
     getTransactions();
 },[houseID])
-
 
 const deleteTransaction= async(transaction)=>{
     console.log(transaction);
@@ -33,10 +29,7 @@ const addTransaction = async(newTransaction)=>{
     console.log(newTransaction);
     await API.createTransaction(houseID, newTransaction);
    getTransactions()
-    
 }
-
-
 
     return(
     <GlobalContext.Provider value={{
@@ -52,7 +45,6 @@ const addTransaction = async(newTransaction)=>{
         {children}
     </GlobalContext.Provider>
     )
-
 }
 
 export const GlobalConsumer = GlobalContext.Consumer; 
