@@ -14,7 +14,6 @@ export const IncomeExpenses = ({context}) => {
     -1
   ).toFixed(2);
 
-
     return (
         <div>
             <div>
