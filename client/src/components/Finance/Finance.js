@@ -5,7 +5,6 @@ import {TransactionList} from "../Finance/transactionList"
 import {AddTransaction} from "../Finance/addTransaction"
 import Card from "react-bootstrap/Card"
 
-
 import './Finance.css';
 
 function Finance({context}) {
@@ -23,8 +22,6 @@ function Finance({context}) {
           </Card>
 
         <AddTransaction context={context} />
-   
-        
         
         </>
     
