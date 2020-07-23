@@ -13,7 +13,6 @@ function Chores(props) {
         setChores(res.data);
       })
       .catch((err) => console.log(err));
-
   }, []);
 
 
