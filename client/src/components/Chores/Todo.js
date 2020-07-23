@@ -29,4 +29,5 @@ function Chore({ chore, toggleComplete, removeChore }) {
   );
 }
 
+
 export default Chore;
