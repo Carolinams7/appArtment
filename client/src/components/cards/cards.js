@@ -5,7 +5,6 @@ import img1 from '../assets/cleaning.jpg'
 import img2 from '../assets/livinghappily.jpg'
 import img3 from '../assets/Bills.jpg'
 
-
 class Cards extends Component{
 
     render(){
@@ -23,8 +22,9 @@ class Cards extends Component{
                    </div>
                 </div> 
             </div>
-       
        )
     }
 }
+
+
 export default Cards;
