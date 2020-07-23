@@ -8,7 +8,6 @@ function Chores(props) {
   const [chores, setChores] = useState([]);
 
 
-
   useEffect(() => {
     API.getChores("5ecc800d2c0155578876c0bc")
       .then((res) => {
