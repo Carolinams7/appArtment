@@ -15,7 +15,6 @@ function Chores(props) {
       .catch((err) => console.log(err));
   }, []);
 
-
   function addChore(chore) {
     API.createChore(chore);
     setChores([chore, ...chores]);
