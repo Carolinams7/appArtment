@@ -8,11 +8,9 @@
   box-sizing: border-box;
 }
 
-
 .containerFinance {
   margin: 30px auto;
   width: 350px;
-  
 }
 
 h1 {
@@ -111,7 +109,6 @@ input[type='number'] {
   position: relative;
   padding: 10px;
   margin: 10px 0;
-  
 }
 
 .list li.plus {
