@@ -6,7 +6,6 @@ import Button from 'react-bootstrap/Button';
 export const AddTransaction = ({context}) => {
   const {addTransaction, members} = context
   
-  
   const [newTransaction, setNewTransaction] = useState({
     name:"",
     amount:0,
