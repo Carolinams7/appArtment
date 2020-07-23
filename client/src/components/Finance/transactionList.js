@@ -23,8 +23,7 @@ export const TransactionList = ({context}) => {
           )
         }
          
-      </ul>
-            
+      </ul> 
         </>
     )
 }
