@@ -17,4 +17,5 @@ function ChoresList({ chores, toggleComplete, removeChore }) {
   );
 }
 
+
 export default ChoresList;
