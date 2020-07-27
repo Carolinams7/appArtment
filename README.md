@@ -1,10 +1,10 @@
-> [Demo](https://appartment3.herokuapp.com/)
-
-<img src="https://github.com/Carolinams7/appArtment/raw/master/client/public/images/appArtmentpic.png"/>
-
 # appArtment
 
 An app to manage/connect roommates tasks, chores and finance within the house/apartment.
+
+> [Demo](https://appartment3.herokuapp.com/)
+
+<img src="https://github.com/Carolinams7/appArtment/raw/master/client/public/images/appArtmentpic.png"/>
 
 ## Overview
 
