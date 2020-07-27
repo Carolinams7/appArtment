@@ -1,6 +1,6 @@
 > [Demo](https://appartment3.herokuapp.com/)
 
-<img src="https://github.com/Carolinams7/appArtment/client/public/images/appArtmentpic.png"/>
+<img src="https://github.com/Carolinams7/raw/master/appArtment/client/public/images/appArtmentpic.png"/>
 
 # appArtment
 
