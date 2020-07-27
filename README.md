@@ -1,3 +1,7 @@
+> [Demo](https://appartment3.herokuapp.com/)
+
+<img src="https://github.com/Carolinams7/Portfolio/raw/master/particle_demo/portfoliopic.png"/>
+
 # appArtment
 
 An app to manage/connect roommates tasks, chores and finance within the house/apartment.
